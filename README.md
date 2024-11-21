@@ -66,9 +66,8 @@ This project reimagines Piet Mondrian's iconic "Composition in Red, Yellow, Blue
 
 ## **Acknowledgments**
 - Inspired by Piet Mondrian’s "Composition in Red, Yellow, Blue, and Black."
-- Guided by course exercises and tutorials on image manipulation with p5.js.
 
-# Face-Driven Distortion Art with ml5.js
+# Face-Driven Distortion Art with ml5.js - HW09B
 
 ## Overview
 
