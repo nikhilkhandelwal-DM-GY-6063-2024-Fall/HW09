@@ -68,3 +68,48 @@ This project reimagines Piet Mondrian's iconic "Composition in Red, Yellow, Blue
 - Inspired by Piet Mondrian’s "Composition in Red, Yellow, Blue, and Black."
 - Guided by course exercises and tutorials on image manipulation with p5.js.
 
+# Face-Driven Distortion Art with ml5.js
+
+## Overview
+
+This project is a creative exploration of camera-based interactivity using the `ml5.js` library. The sketch detects facial keypoints through a webcam and dynamically generates a ripple-like distortion effect around the face. It also incorporates a mirrored video feed to create a visually engaging and reflective experience.
+
+This project showcases the possibilities of interactive, non-traditional interfaces by leveraging face detection to influence visual art in real-time.
+
+---
+
+## Design Process
+
+The design process focused on the following key aspects:
+
+1. **Conceptualization**:
+   - The idea stemmed from exploring the use of facial movements to dynamically interact with visuals, inspired by Yoko Ono's conceptual art and the reflective properties of mirrors.
+   - Incorporating a mirrored video feed adds a layer of abstraction, making the interaction visually compelling.
+
+2. **Technical Planning**:
+   - Used `ml5.js`'s FaceMesh model to detect and retrieve keypoints of the face in real time.
+   - Carefully aligned the face detection keypoints with the mirrored video feed for accurate positioning of distortions.
+
+3. **Artistic Considerations**:
+   - Chose ripple effects to highlight the fluid nature of movement and interaction.
+   - Added dynamic distortion that grows over time, representing the evolving relationship between human motion and digital art.
+
+4. **Polish**:
+   - Ensured smooth transitions and professional presentation through thoughtful scaling and alignment adjustments.
+   - Optimized the code to maintain performance and visual appeal.
+
+---
+
+## How It Works
+
+1. **Video Feed**:
+   - A webcam feed is mirrored horizontally and displayed on the canvas.
+
+2. **Face Detection**:
+   - The `ml5.js` FaceMesh model detects keypoints of the user's face.
+
+3. **Dynamic Ripple Effect**:
+   - Ripple distortions are drawn around the detected keypoints, growing dynamically over time.
+
+4. **Interaction**:
+   - Moving your face alters the position of distortions, while the mirrored video ensures a reflective visual experience.
