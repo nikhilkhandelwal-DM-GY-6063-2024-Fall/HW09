@@ -1,7 +1,7 @@
 let video;
 let faceMesh;
 let faces = [];
-let distortionStrength = 10;
+let distortionStrength = 2;
 
 function preload() {
   faceMesh = ml5.faceMesh();
